@@ -1,4 +1,5 @@
 {
-  "item.forgmod.gem": "gem",
+  "item.forgmod.gem": "Gem",
+  "block.forgmod.gem_block": "Gem Block",
   "creativetab.forgmod_tab": "Forgmod"
 }

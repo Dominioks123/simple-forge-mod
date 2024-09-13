@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "forgmod:block/gem_block"
+    }
+  }
+}
