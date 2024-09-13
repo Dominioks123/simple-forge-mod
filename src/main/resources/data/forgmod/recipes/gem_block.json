@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "forgmod:gem",
-      "count": 9
+      "item": "forgmod:gem_block"
     }
   ],
   "result": {
-    "item": "forgmod:gem_block"
+    "item": "forgmod:gem",
+    "count": 9
   }
 }

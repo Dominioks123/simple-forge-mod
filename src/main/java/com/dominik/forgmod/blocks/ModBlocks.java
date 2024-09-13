@@ -21,9 +21,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> GEM_BLOCK = RegisterBlock("gem_block", () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.AMETHYST_BLOCK)));
 
-    //function that registers custom blocks with theier custom items.
-    private static <T extends Block> RegistryObject<T> RegisterBlock(String name, Supplier<T> blocktoadd){
-        RegistryObject<T> returnit = BLOCKS.register(name, blocktoadd);
+    //function that registers custom blocks with their custom items.
+    private static <T extends Block> RegistryObject<T> RegisterBlock(String name, Supplier<T> BlockToAdd){
+        RegistryObject<T> returnit = BLOCKS.register(name, BlockToAdd);
         RegisterBlockItem(name, returnit);
         return returnit;
     };

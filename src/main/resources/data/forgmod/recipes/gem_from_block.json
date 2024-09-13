@@ -8,11 +8,10 @@
   ],
   "key": {
     "#": {
-      "item": "forgmod:gem_block"
+      "item": "forgmod:gem"
     }
   },
   "result": {
-    "item": "forgmod:gem",
-    "count": 9
+    "item": "forgmod:gem_block"
   }
 }
