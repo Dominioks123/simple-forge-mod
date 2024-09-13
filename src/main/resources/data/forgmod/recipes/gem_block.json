@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "forgmod:gem",
+      "count": 9
+    }
+  ],
+  "result": {
+    "item": "forgmod:gem_block"
+  }
+}

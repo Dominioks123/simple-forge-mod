@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "forgmod:gem_block"
+    }
+  },
+  "result": {
+    "item": "forgmod:gem",
+    "count": 9
+  }
+}
