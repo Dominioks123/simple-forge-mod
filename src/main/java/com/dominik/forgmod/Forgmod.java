@@ -2,7 +2,6 @@ package com.dominik.forgmod;
 
 import com.dominik.forgmod.blocks.ModBlocks;
 import com.dominik.forgmod.items.ModItems;
-import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -14,13 +13,11 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import org.slf4j.Logger;
 
 @Mod(Forgmod.MODID)
 public class Forgmod {
 
     public static final String MODID = "forgmod";
-    private static final Logger LOGGER = LogUtils.getLogger();
 
 
     public Forgmod() {
@@ -38,7 +35,7 @@ public class Forgmod {
 
     }
 
-
+    //method for registering items in creative menu
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.GEM);
