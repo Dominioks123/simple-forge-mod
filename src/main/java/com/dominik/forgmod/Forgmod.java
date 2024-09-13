@@ -43,6 +43,7 @@ public class Forgmod {
         if (event.getTabKey() == ModItems.FORGMOD_TAB.getKey()) {
             event.accept(ModItems.GEM);
             event.accept(ModBlocks.GEM_BLOCK);
+            event.accept(ModItems.DETECTOR);
         }
     }
 

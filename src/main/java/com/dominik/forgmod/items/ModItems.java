@@ -20,6 +20,7 @@ public class ModItems {
 
     //objects to register
     public static final RegistryObject<Item> GEM = ITEMS.register("gem",() -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DETECTOR = ITEMS.register("detector",() -> new CustomItem(new Item.Properties()));
 
     //function to register custom items registry
     public static void Register(IEventBus eventBus) {
