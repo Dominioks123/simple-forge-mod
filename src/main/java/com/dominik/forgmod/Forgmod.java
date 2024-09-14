@@ -44,6 +44,7 @@ public class Forgmod {
             event.accept(ModItems.GEM);
             event.accept(ModBlocks.GEM_BLOCK);
             event.accept(ModItems.DETECTOR);
+            event.accept(ModBlocks.CUSTOM_BLOCK);
         }
     }
 

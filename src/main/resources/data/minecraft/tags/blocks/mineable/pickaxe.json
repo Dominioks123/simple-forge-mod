@@ -1,5 +1,6 @@
 {
   "values": [
-    "forgmod:gem_block"
+    "forgmod:gem_block",
+    "forgmod:custom_block"
   ]
 }
