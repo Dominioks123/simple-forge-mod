@@ -4,5 +4,6 @@
   "item.forgmod.pine_cone": "Pine cone",
   "block.forgmod.gem_block": "Gem Block",
   "block.forgmod.custom_block": "Custom Block",
-  "creativetab.forgmod_tab": "Forgmod"
+  "creativetab.forgmod_tab": "Forgmod",
+  "tooltip.forgmod.custom_item": "detects ores underground"
 }
