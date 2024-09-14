@@ -1,6 +1,7 @@
 {
   "item.forgmod.gem": "Gem",
   "item.forgmod.detector": "detector",
+  "item.forgmod.pine_cone": "Pine cone",
   "block.forgmod.gem_block": "Gem Block",
   "block.forgmod.custom_block": "Custom Block",
   "creativetab.forgmod_tab": "Forgmod"

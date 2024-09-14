@@ -45,6 +45,7 @@ public class Forgmod {
             event.accept(ModBlocks.GEM_BLOCK);
             event.accept(ModItems.DETECTOR);
             event.accept(ModBlocks.CUSTOM_BLOCK);
+            event.accept(ModItems.PINE_CONE);
         }
     }
 
